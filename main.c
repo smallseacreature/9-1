@@ -71,7 +71,7 @@ int main(void)
       {
          read_function(inp, myclass);
       }
-
+      perror("fopen failed");
       // for debug
       quitKey == 'q';
    }
